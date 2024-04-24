@@ -1,118 +1,6 @@
 {
     "context": [
         {
-            "id": 1,
-            "title": "Provas Parciais - Início do Ano Letivo",
-            "exams": [
-                {
-                    "id": 1,
-                    "title": "Matemática"
-                },
-                {
-                    "id": 2,
-                    "title": "Português"
-                },
-                {
-                    "id": 3,
-                    "title": "Ciências Naturais"
-                },
-                {
-                    "id": 4,
-                    "title": "Ciências Humanas"
-                }
-            ],
-            "states": [
-                {
-                    "id": 1,
-                    "name": "Ceará"
-                }
-            ],
-            "cities": [
-                {
-                    "id": 1,
-                    "name": "Fortaleza"
-                }
-            ],
-            "schools": [
-                {
-                    "id": 1,
-                    "name": "Escola Estadual Professora Maria Silva"
-                },
-                {
-                    "id": 2,
-                    "name": "EEM Governador Adalto Bezerra"
-                },
-                {
-                    "id": 3,
-                    "name": "Colégio Estadual José Almeida"
-                },
-                {
-                    "id": 4,
-                    "name": "Escola Municipal João da Silva"
-                },
-                {
-                    "id": 5,
-                    "name": "Instituto Educacional Pedro Nogueira"
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "title": "Provas Globais - Início do Ano Letivo",
-            "exams": [
-                {
-                    "id": 1,
-                    "title": "Matemática"
-                },
-                {
-                    "id": 2,
-                    "title": "Português"
-                },
-                {
-                    "id": 3,
-                    "title": "Ciências Naturais"
-                },
-                {
-                    "id": 4,
-                    "title": "Ciências Humanas"
-                }
-            ],
-            "states": [
-                {
-                    "id": 1,
-                    "name": "Ceará"
-                }
-            ],
-            "cities": [
-                {
-                    "id": 1,
-                    "name": "Fortaleza"
-                }
-            ],
-            "schools": [
-                {
-                    "id": 1,
-                    "name": "Escola Estadual Professora Maria Silva"
-                },
-                {
-                    "id": 2,
-                    "name": "EEM Governador Adalto Bezerra"
-                },
-                {
-                    "id": 3,
-                    "name": "Colégio Estadual José Almeida"
-                },
-                {
-                    "id": 4,
-                    "name": "Escola Municipal João da Silva"
-                },
-                {
-                    "id": 5,
-                    "name": "Instituto Educacional Pedro Nogueira"
-                }
-            ]
-        },
-        {
             "id": 3,
             "title": "Diagnóstica - Início do Ano Letivo",
             "exams": [
@@ -147,24 +35,293 @@
             ],
             "schools": [
                 {
+                    "id": 2,
+                    "name": "EEM Governador Adalto Bezerra"
+                }
+            ],
+            "classes": [
+                {
+                    "id": 3,
+                    "name": "Turma 3"
+                }
+            ],
+            "students": [
+                {
                     "id": 1,
-                    "name": "Escola Estadual Professora Maria Silva"
+                    "name": "George Melo da Silva"
                 },
                 {
                     "id": 2,
+                    "name": "Diego Ernesto Sales"
+                },
+                {
+                    "id": 19,
+                    "name": "Ana Cláudia Oliveira"
+                }
+            ]
+        }
+    ],
+    "reports_school": [
+        {
+            "assessment": {
+                "id": 3,
+                "title": "Diagnóstica - Início do Ano Letivo"
+            },
+            "school": {
+                "id": 2,
+                "name": "EEM Governador Adalto Bezerra"
+            },
+            "average": 5.6,
+            "rank": 90,
+            "rank_max": 121,
+            "students_per_level": {
+                "level_1": 20,
+                "level_2": 80,
+                "level_3": 200,
+                "level_4": 100
+            },
+            "stats": {
+                "total_students": 400,
+                "average_class": 28,
+                "largest_class": 32,
+                "smallest_class": 17
+            },
+            "exams": [
+                {
+                    "id": 1,
+                    "title": "Matemática",
+                    "average": 8.5
+                },
+                {
+                    "id": 1,
+                    "title": "Português",
+                    "average": 7.3
+                },
+                {
+                    "id": 1,
+                    "title": "Ciências Naturais",
+                    "average": 2.5
+                },
+                {
+                    "id": 1,
+                    "title": "Ciências Humanas",
+                    "average": 4.3
+                }
+            ]
+        }
+    ],
+    "reports_class": [
+        {
+            "assessment": {
+                "id": 3,
+                "title": "Diagnóstica - Início do Ano Letivo"
+            },
+            "class": {
+                "id": 2,
+                "name": "Turma 3",
+                "serie": {
+                    "id": 1,
+                    "name": "Série 1"
+                },
+                "shift": {
+                    "id": 1,
+                    "name": "Manhã"
+                },
+                "school": {
+                    "id": 2,
                     "name": "EEM Governador Adalto Bezerra"
+                }
+            },
+            "average": 7.9,
+            "rank": 6,
+            "rank_max": 32,
+            "students_per_level": {
+                "level_1": 3,
+                "level_2": 6,
+                "level_3": 15,
+                "level_4": 6
+            },
+            "exams": [
+                {
+                    "id": 1,
+                    "title": "Matemática",
+                    "average": 8.0
+                },
+                {
+                    "id": 1,
+                    "title": "Português",
+                    "average": 7.5
+                },
+                {
+                    "id": 1,
+                    "title": "Ciências Naturais",
+                    "average": 7.9
+                },
+                {
+                    "id": 1,
+                    "title": "Ciências Humanas",
+                    "average": 8.2
+                }
+            ]
+        }
+    ],
+    "reports_student": [
+        {
+            "assessment": {
+                "id": 3,
+                "title": "Diagnóstica - Início do Ano Letivo"
+            },
+            "student": {
+                "id": 19,
+                "name": "Ana Cláudia Oliveira",
+                "class": {
+                    "id": 2,
+                    "name": "Turma 3"
+                },
+                "shift": {
+                    "id": 1,
+                    "name": "Manhã"
+                },
+                "serie": {
+                    "id": 1,
+                    "name": "Série 1"
+                },
+                "school": {
+                    "id": 2,
+                    "name": "EEM Governador Adalto Bezerra"
+                }
+            },
+            "average": 6.3,
+            "class_rank": 9,
+            "class_rank_max": 32,
+            "school_rank": 30,
+            "school_rank_max": 252,
+            "exams": [
+                {
+                    "id": 1,
+                    "title": "Matemática",
+                    "average": 2.5
+                },
+                {
+                    "id": 1,
+                    "title": "Português",
+                    "average": 4.3
+                },
+                {
+                    "id": 1,
+                    "title": "Ciências Naturais",
+                    "average": 10.0
+                },
+                {
+                    "id": 1,
+                    "title": "Ciências Humanas",
+                    "average": 7.2
+                }
+            ]
+        },
+        {
+            "assessment": {
+                "id": 3,
+                "title": "Diagnóstica - Início do Ano Letivo"
+            },
+            "student": {
+                "id": 1,
+                "name": "George Melo da Silva",
+                "class": {
+                    "id": 2,
+                    "name": "Turma 3"
+                },
+                "shift": {
+                    "id": 1,
+                    "name": "Manhã"
+                },
+                "serie": {
+                    "id": 1,
+                    "name": "Série 1"
+                },
+                "school": {
+                    "id": 2,
+                    "name": "EEM Governador Adalto Bezerra"
+                }
+            },
+            "average": 5.8,
+            "class_rank": 10,
+            "class_rank_max": 32,
+            "school_rank": 31,
+            "school_rank_max": 252,
+            "exams": [
+                {
+                    "id": 1,
+                    "title": "Matemática",
+                    "average": 3.2
+                },
+                {
+                    "id": 2,
+                    "title": "Português",
+                    "average": 4.8
                 },
                 {
                     "id": 3,
-                    "name": "Colégio Estadual José Almeida"
+                    "title": "Ciências Naturais",
+                    "average": 6.5
                 },
                 {
                     "id": 4,
-                    "name": "Escola Municipal João da Silva"
+                    "title": "Ciências Humanas",
+                    "average": 7.0
+                }
+            ]
+        },
+        {
+            "assessment": {
+                "id": 3,
+                "title": "Diagnóstica - Início do Ano Letivo"
+            },
+            "student": {
+                "id": 2,
+                "name": "Diego Ernesto Sales",
+                "class": {
+                    "id": 2,
+                    "name": "Turma 3"
+                },
+                "shift": {
+                    "id": 1,
+                    "name": "Manhã"
+                },
+                "serie": {
+                    "id": 1,
+                    "name": "Série 1"
+                },
+                "school": {
+                    "id": 2,
+                    "name": "EEM Governador Adalto Bezerra"
+                }
+            },
+            "average": 6.7,
+            "class_rank": 8,
+            "class_rank_max": 32,
+            "school_rank": 29,
+            "school_rank_max": 252,
+            "exams": [
+                {
+                    "id": 1,
+                    "title": "Matemática",
+                    "average": 2.8
                 },
                 {
-                    "id": 5,
-                    "name": "Instituto Educacional Pedro Nogueira"
+                    "id": 2,
+                    "title": "Português",
+                    "average": 5.0
+                },
+                {
+                    "id": 3,
+                    "title": "Ciências Naturais",
+                    "average": 7.2
+                },
+                {
+                    "id": 4,
+                    "title": "Ciências Humanas",
+                    "average": 8.5
                 }
             ]
         }
