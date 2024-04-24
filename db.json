@@ -1,0 +1,172 @@
+{
+    "context": [
+        {
+            "id": 1,
+            "title": "Provas Parciais - Início do Ano Letivo",
+            "exams": [
+                {
+                    "id": 1,
+                    "title": "Matemática"
+                },
+                {
+                    "id": 2,
+                    "title": "Português"
+                },
+                {
+                    "id": 3,
+                    "title": "Ciências Naturais"
+                },
+                {
+                    "id": 4,
+                    "title": "Ciências Humanas"
+                }
+            ],
+            "states": [
+                {
+                    "id": 1,
+                    "name": "Ceará"
+                }
+            ],
+            "cities": [
+                {
+                    "id": 1,
+                    "name": "Fortaleza"
+                }
+            ],
+            "schools": [
+                {
+                    "id": 1,
+                    "name": "Escola Estadual Professora Maria Silva"
+                },
+                {
+                    "id": 2,
+                    "name": "EEM Governador Adalto Bezerra"
+                },
+                {
+                    "id": 3,
+                    "name": "Colégio Estadual José Almeida"
+                },
+                {
+                    "id": 4,
+                    "name": "Escola Municipal João da Silva"
+                },
+                {
+                    "id": 5,
+                    "name": "Instituto Educacional Pedro Nogueira"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Provas Globais - Início do Ano Letivo",
+            "exams": [
+                {
+                    "id": 1,
+                    "title": "Matemática"
+                },
+                {
+                    "id": 2,
+                    "title": "Português"
+                },
+                {
+                    "id": 3,
+                    "title": "Ciências Naturais"
+                },
+                {
+                    "id": 4,
+                    "title": "Ciências Humanas"
+                }
+            ],
+            "states": [
+                {
+                    "id": 1,
+                    "name": "Ceará"
+                }
+            ],
+            "cities": [
+                {
+                    "id": 1,
+                    "name": "Fortaleza"
+                }
+            ],
+            "schools": [
+                {
+                    "id": 1,
+                    "name": "Escola Estadual Professora Maria Silva"
+                },
+                {
+                    "id": 2,
+                    "name": "EEM Governador Adalto Bezerra"
+                },
+                {
+                    "id": 3,
+                    "name": "Colégio Estadual José Almeida"
+                },
+                {
+                    "id": 4,
+                    "name": "Escola Municipal João da Silva"
+                },
+                {
+                    "id": 5,
+                    "name": "Instituto Educacional Pedro Nogueira"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Diagnóstica - Início do Ano Letivo",
+            "exams": [
+                {
+                    "id": 1,
+                    "title": "Matemática"
+                },
+                {
+                    "id": 2,
+                    "title": "Português"
+                },
+                {
+                    "id": 3,
+                    "title": "Ciências Naturais"
+                },
+                {
+                    "id": 4,
+                    "title": "Ciências Humanas"
+                }
+            ],
+            "states": [
+                {
+                    "id": 1,
+                    "name": "Ceará"
+                }
+            ],
+            "cities": [
+                {
+                    "id": 1,
+                    "name": "Fortaleza"
+                }
+            ],
+            "schools": [
+                {
+                    "id": 1,
+                    "name": "Escola Estadual Professora Maria Silva"
+                },
+                {
+                    "id": 2,
+                    "name": "EEM Governador Adalto Bezerra"
+                },
+                {
+                    "id": 3,
+                    "name": "Colégio Estadual José Almeida"
+                },
+                {
+                    "id": 4,
+                    "name": "Escola Municipal João da Silva"
+                },
+                {
+                    "id": 5,
+                    "name": "Instituto Educacional Pedro Nogueira"
+                }
+            ]
+        }
+    ]
+}
